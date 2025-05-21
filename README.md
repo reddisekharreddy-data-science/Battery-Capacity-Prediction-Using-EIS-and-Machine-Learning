@@ -1,4 +1,5 @@
 **Battery Capacity Prediction using Ridge Regression**
+
 This project demonstrates a Data Science pipeline to predict battery Capacity degradation using a Ridge Regression model. The dataset consists of battery discharge cycle features, and the goal is to accurately model the decline in battery capacity.
 
 🚀 Project Highlights
