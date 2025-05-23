@@ -1,54 +1,33 @@
-**Battery Capacity Prediction using Ridge Regression**
+** Battery Capacity Prediction Using EIS and Machine Learning **
 
-This project demonstrates a Data Science pipeline to predict battery Capacity degradation using a Ridge Regression model. The dataset consists of battery discharge cycle features, and the goal is to accurately model the decline in battery capacity.
+This project focuses on analyzing Electrochemical Impedance Spectroscopy (EIS) data to predict battery capacity using machine learning techniques. The notebook provides a comprehensive workflow from data extraction to modeling and visualization.
 
-🚀 Project Highlights
-🔍 Data Cleaning & Preprocessing
+## 📌 Project Overview
 
-🎯 One-Hot Encoding of Categorical Variables
+The notebook includes the following key steps:
 
-📐 Feature Scaling using StandardScaler
+1. **Extract and Load Data**  
+   Loading and preprocessing of raw EIS and capacity data for analysis.
 
-🔄 Model Building using Ridge Regression
+2. **3D Visualization of Impedance Data**  
+   Plotting the EIS data in three dimensions to understand frequency response and impedance patterns.
 
-📊 Cross-Validation with RMSE Evaluation
+3. **Incremental Capacity Analysis**  
+   Performing dQ/dV analysis to assess changes in battery capacity.
 
-📁 Model & Scaler Serialization using joblib
+4. **Machine Learning Model**  
+   Using machine learning to predict battery capacity from EIS features.
 
-📁 Dataset
-The dataset discharge.csv contains the following key columns:
+## 📊 Technologies Used
 
-Battery: Identifier for different battery units.
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn, Plotly
+- Scikit-learn
 
-id_cycle: The cycle number of battery discharge.
+## 🧪 How to Run
 
-ambient_temperature: Temperature during the cycle.
-
-Capacity: Target variable representing battery health.
-
-📌 Steps Covered
-Data Loading
-
-Data Cleaning – Dropping irrelevant or constant columns.
-
-One-Hot Encoding – For categorical 'Battery' feature.
-
-Feature Scaling – Standardizing features to mean 0, std 1.
-
-Train-Test Split
-
-Model Training – Ridge Regression with L2 Regularization.
-
-Cross-Validation – Using 5-fold to assess model robustness.
-
-Evaluation – RMSE and R² Score.
-
-Model Saving – Using joblib for deployment.
-
-📈 Performance
-Metric	Score
-Cross-Validated RMSE	0.0902
-Test RMSE	0.0901
-Train R² Score	0.7737
-Test R² Score	0.7722
-
+1. Clone this repository.
+2. Ensure you have the required libraries installed:
+   ```bash
+   pip install -r requirements.txt
