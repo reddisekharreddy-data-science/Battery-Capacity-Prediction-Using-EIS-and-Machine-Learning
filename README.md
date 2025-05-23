@@ -1,4 +1,4 @@
-** Battery Capacity Prediction Using EIS and Machine Learning **
+**Battery Capacity Prediction Using EIS and Machine Learning**
 
 This project focuses on analyzing Electrochemical Impedance Spectroscopy (EIS) data to predict battery capacity using machine learning techniques. The notebook provides a comprehensive workflow from data extraction to modeling and visualization.
 
