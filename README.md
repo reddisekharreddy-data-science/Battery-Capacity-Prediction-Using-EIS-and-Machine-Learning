@@ -2,6 +2,9 @@
 
 This project focuses on analyzing Electrochemical Impedance Spectroscopy (EIS) data to predict battery capacity using machine learning techniques. The notebook provides a comprehensive workflow from data extraction to modeling and visualization.
 
+
+Data set link:
+https://www.kaggle.com/datasets/patrickfleith/nasa-battery-dataset/data
 ## 📌 Project Overview
 
 The notebook includes the following key steps:
