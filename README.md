@@ -25,9 +25,4 @@ The notebook includes the following key steps:
 - Matplotlib, Seaborn, Plotly
 - Scikit-learn
 
-## 🧪 How to Run
 
-1. Clone this repository.
-2. Ensure you have the required libraries installed:
-   ```bash
-   pip install -r requirements.txt
